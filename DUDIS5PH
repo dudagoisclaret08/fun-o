@@ -18,3 +18,27 @@ def peso():
     print("obesidade grau 3")
 
 peso()
+
+
+
+def evento():
+    total= 0
+    maior_participantes= 0 
+    for i in range(6):
+     numero=int(input(" numero de participantes de hoje  "))
+     total += numero
+     media= total/5
+    
+     if numero > maior_participantes:  
+         maior_participantes = numero
+
+    print(f"total de participantes no evento: {total}")
+    print(f"media de participantes por dia: {media}")
+    print(f"Maior número de participantes em um único dia: {maior_participantes}")
+ 
+evento()
+
+
+
+
+
