@@ -1,0 +1,20 @@
+def peso():
+  nome=input("qual seu nome")
+  peso= int(input("seu peso"))
+  altura=float(input("sua altura"))
+  resutado= peso / (altura*altura)
+
+  if resutado>= 18.5:
+    print("esta abaixo do peso")
+  elif resutado>= 24.9:
+    print("peso normal")
+  elif resutado>= 29.9:
+    print("sobrepeso")
+  elif resutado>=34.9:
+    print("obesidade grau 1")
+  elif resutado>=39.9:
+    print("obesidade grau 2 ")
+  else:
+    print("obesidade grau 3")
+
+peso()
